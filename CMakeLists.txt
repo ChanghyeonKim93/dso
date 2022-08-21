@@ -19,7 +19,7 @@ find_package(Boost COMPONENTS system thread)
 
 # optional libraries
 find_package(LibZip QUIET)
-find_package(Pangolin 0.2 QUIET)
+find_package(Pangolin 0.5 QUIET)
 find_package(OpenCV QUIET)
 
 # flags

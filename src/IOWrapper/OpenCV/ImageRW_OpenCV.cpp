@@ -26,6 +26,9 @@
 #include "IOWrapper/ImageRW.h"
 #include <opencv2/highgui/highgui.hpp>
 
+#define CV_LOAD_IMAGE_GRAYSCALE 0
+#define CV_LOAD_IMAGE_COLOR 1
+#define CV_LOAD_IMAGE_UNCHANGED -1 
 
 namespace dso
 {
